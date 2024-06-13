@@ -32,9 +32,12 @@ if (option == "1")
         Console.Clear();
         FirstMenu.UserTypeMenu();
     }
+    Console.WriteLine("Please write your nickname: ");
+    string userId = Console.ReadLine();
     Console.WriteLine("Please write your name: ");
     string name = Console.ReadLine();
     UserModel newUser = new UserModel();
+    newUser.userId = userId;
     newUser.name = name;
     newUser.type = userType;
     Business.UserRegistry(newUser);

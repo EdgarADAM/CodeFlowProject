@@ -1,5 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
-using Common.Helpers;
+using UserApi.Helpers;
 
 namespace UserApi.Controllers
 {
@@ -10,8 +10,8 @@ namespace UserApi.Controllers
         [HttpGet(Name = "UserRegistry")]
         public void UserRegistry()
         {
-            RabbitMQConnect Receiver = new RabbitMQConnect();
-            Receiver.NewUserReceiver();
+            RabbitReceiver rabbitReceiver = new RabbitReceiver();
+            rabbitReceiver.NewUserReceiver();
         }
     }
 }
