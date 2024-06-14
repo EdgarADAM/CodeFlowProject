@@ -1,3 +1,4 @@
+using Common.Models;
 using Microsoft.AspNetCore.Mvc;
 using UserApi.Helpers;
 
@@ -7,11 +8,20 @@ namespace UserApi.Controllers
     [Route("[controller]")]
     public class UserManagementController : ControllerBase
     {
-        [HttpGet(Name = "UserRegistry")]
-        public void UserRegistry()
+        [HttpPost(Name = "UserRegistry")]
+        public void UserRegistry(UserModel userPost)
         {
             RabbitReceiver rabbitReceiver = new RabbitReceiver();
-            rabbitReceiver.NewUserReceiver();
+            if (userPost == null)
+            {
+                rabbitReceiver.NewUserReceiver();
+            }
+            else 
+            {
+                Transactions.Transactions insertUser = new Transactions.Transactions();
+                insertUser.InsertDBUser(userPost);
+            }
+            
         }
     }
 }

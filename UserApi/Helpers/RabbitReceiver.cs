@@ -12,6 +12,7 @@ namespace UserApi.Helpers
         {
             var mres = new ManualResetEventSlim(false);
             var factory = new ConnectionFactory() { HostName = "localhost" };
+            UserModel user = new UserModel();
             using (var connection = factory.CreateConnection())
             {
                 using (var channel = connection.CreateModel())
@@ -28,7 +29,7 @@ namespace UserApi.Helpers
                     {
                         var utf8_message = ea.Body.ToArray();
                         var message = Encoding.UTF8.GetString(utf8_message);
-                        var user = (UserModel)utf8_message.Deserialize(typeof(UserModel))!;
+                        user = (UserModel)utf8_message.Deserialize(typeof(UserModel))!;
                         Transactions.Transactions insertUser = new Transactions.Transactions();
                         insertUser.InsertDBUser(user);
                     };
@@ -37,6 +38,7 @@ namespace UserApi.Helpers
                     mres.Wait();
                 }
             }
+            
         }
     }
 }

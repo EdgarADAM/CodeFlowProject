@@ -28,7 +28,7 @@ Task.Run(() =>
 {
     using var scope = app.Services.CreateScope();
     var rabbitConsumer = scope.ServiceProvider.GetRequiredService<UserManagementController>();
-    rabbitConsumer.UserRegistry();
+    rabbitConsumer.UserRegistry(null);
 });
 
 app.Run();

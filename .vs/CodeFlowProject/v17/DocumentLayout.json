@@ -3,14 +3,6 @@
   "WorkspaceRootPath": "C:\\Github\\CodeFlowProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3FD71583-7D93-4173-9284-1F7727C9CCB5}|EasyNetQModels\\Common.csproj|c:\\github\\codeflowproject\\easynetqmodels\\helpers\\rabbitmqconnect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3FD71583-7D93-4173-9284-1F7727C9CCB5}|EasyNetQModels\\Common.csproj|solutionrelative:easynetqmodels\\helpers\\rabbitmqconnect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3FD71583-7D93-4173-9284-1F7727C9CCB5}|EasyNetQModels\\Common.csproj|c:\\github\\codeflowproject\\easynetqmodels\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3FD71583-7D93-4173-9284-1F7727C9CCB5}|EasyNetQModels\\Common.csproj|solutionrelative:easynetqmodels\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BDFF0C10-7068-49BC-9F68-9B71D6CFA62F}|UserApi\\UserApi.csproj|c:\\github\\codeflowproject\\userapi\\helpers\\rabbitreceiver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BDFF0C10-7068-49BC-9F68-9B71D6CFA62F}|UserApi\\UserApi.csproj|solutionrelative:userapi\\helpers\\rabbitreceiver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -19,12 +11,12 @@
       "RelativeMoniker": "D:0:0:{BDFF0C10-7068-49BC-9F68-9B71D6CFA62F}|UserApi\\UserApi.csproj|solutionrelative:userapi\\controllers\\usermanagementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BDFF0C10-7068-49BC-9F68-9B71D6CFA62F}|UserApi\\UserApi.csproj|c:\\github\\codeflowproject\\userapi\\transactions\\transactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BDFF0C10-7068-49BC-9F68-9B71D6CFA62F}|UserApi\\UserApi.csproj|solutionrelative:userapi\\transactions\\transactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BDFF0C10-7068-49BC-9F68-9B71D6CFA62F}|UserApi\\UserApi.csproj|c:\\github\\codeflowproject\\userapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDFF0C10-7068-49BC-9F68-9B71D6CFA62F}|UserApi\\UserApi.csproj|solutionrelative:userapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F5AA09F3-353A-4BA8-B4A4-0EC22B800CCB}|UIManager\\UIManager.csproj|c:\\github\\codeflowproject\\uimanager\\business\\userbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5AA09F3-353A-4BA8-B4A4-0EC22B800CCB}|UIManager\\UIManager.csproj|solutionrelative:uimanager\\business\\userbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BDFF0C10-7068-49BC-9F68-9B71D6CFA62F}|UserApi\\UserApi.csproj|c:\\github\\codeflowproject\\userapi\\transactions\\transactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDFF0C10-7068-49BC-9F68-9B71D6CFA62F}|UserApi\\UserApi.csproj|solutionrelative:userapi\\transactions\\transactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,80 +26,56 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "RabbitReceiver.cs",
               "DocumentMoniker": "C:\\Github\\CodeFlowProject\\UserApi\\Helpers\\RabbitReceiver.cs",
               "RelativeDocumentMoniker": "UserApi\\Helpers\\RabbitReceiver.cs",
               "ToolTip": "C:\\Github\\CodeFlowProject\\UserApi\\Helpers\\RabbitReceiver.cs",
               "RelativeToolTip": "UserApi\\Helpers\\RabbitReceiver.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAA2AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T04:09:41.477Z",
+              "WhenOpened": "2024-06-14T03:59:55.861Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Github\\CodeFlowProject\\EasyNetQModels\\Program.cs",
-              "RelativeDocumentMoniker": "EasyNetQModels\\Program.cs",
-              "ToolTip": "C:\\Github\\CodeFlowProject\\EasyNetQModels\\Program.cs",
-              "RelativeToolTip": "EasyNetQModels\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentMoniker": "C:\\Github\\CodeFlowProject\\UserApi\\Program.cs",
+              "RelativeDocumentMoniker": "UserApi\\Program.cs",
+              "ToolTip": "C:\\Github\\CodeFlowProject\\UserApi\\Program.cs",
+              "RelativeToolTip": "UserApi\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T03:57:59.439Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UserBusiness.cs",
-              "DocumentMoniker": "C:\\Github\\CodeFlowProject\\UIManager\\Business\\UserBusiness.cs",
-              "RelativeDocumentMoniker": "UIManager\\Business\\UserBusiness.cs",
-              "ToolTip": "C:\\Github\\CodeFlowProject\\UIManager\\Business\\UserBusiness.cs",
-              "RelativeToolTip": "UIManager\\Business\\UserBusiness.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T03:56:31.013Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Transactions.cs",
-              "DocumentMoniker": "C:\\Github\\CodeFlowProject\\UserApi\\Transactions\\Transactions.cs",
-              "RelativeDocumentMoniker": "UserApi\\Transactions\\Transactions.cs",
-              "ToolTip": "C:\\Github\\CodeFlowProject\\UserApi\\Transactions\\Transactions.cs",
-              "RelativeToolTip": "UserApi\\Transactions\\Transactions.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T03:54:44.232Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "RabbitMQConnect.cs",
-              "DocumentMoniker": "C:\\Github\\CodeFlowProject\\EasyNetQModels\\Helpers\\RabbitMQConnect.cs",
-              "RelativeDocumentMoniker": "EasyNetQModels\\Helpers\\RabbitMQConnect.cs",
-              "ToolTip": "C:\\Github\\CodeFlowProject\\EasyNetQModels\\Helpers\\RabbitMQConnect.cs",
-              "RelativeToolTip": "EasyNetQModels\\Helpers\\RabbitMQConnect.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T03:53:28.629Z",
+              "WhenOpened": "2024-06-14T03:55:11.065Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "Transactions.cs",
+              "DocumentMoniker": "C:\\Github\\CodeFlowProject\\UserApi\\Transactions\\Transactions.cs",
+              "RelativeDocumentMoniker": "UserApi\\Transactions\\Transactions.cs",
+              "ToolTip": "C:\\Github\\CodeFlowProject\\UserApi\\Transactions\\Transactions.cs",
+              "RelativeToolTip": "UserApi\\Transactions\\Transactions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBEAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T03:54:44.232Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "UserManagementController.cs",
               "DocumentMoniker": "C:\\Github\\CodeFlowProject\\UserApi\\Controllers\\UserManagementController.cs",
               "RelativeDocumentMoniker": "UserApi\\Controllers\\UserManagementController.cs",
               "ToolTip": "C:\\Github\\CodeFlowProject\\UserApi\\Controllers\\UserManagementController.cs",
               "RelativeToolTip": "UserApi\\Controllers\\UserManagementController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAtAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBAAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-13T03:42:27.388Z",
               "EditorCaption": ""

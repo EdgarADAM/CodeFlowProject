@@ -8,7 +8,7 @@ namespace UIManager.Business
         public void UserRegistry(UserModel newUser)
         {
             RabbitMQConnect registry = new RabbitMQConnect();
-            registry.NewUser(newUser);
+            registry.SenderRabbit(newUser, "UserRegistries");
         }
     }
 }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UIManager")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+62d97861d8a68edf3ad806c825da893f42c13a47")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d493565eee1449b0e1a9a8ae7a826e84a7ae90dc")]
 [assembly: System.Reflection.AssemblyProductAttribute("UIManager")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UIManager")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
