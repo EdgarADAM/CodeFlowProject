@@ -2,9 +2,9 @@
 {
     public class UserModel
     {
-        public string userId { get; set; }
-        public string name { get; set; }   
-        public string type { get; set; }
+        public string userId { get; set; } = null!;
+        public string name { get; set; } = null!;
+        public string type { get; set; } = null!;
 
     }
 }

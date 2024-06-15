@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("UIManager")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("AppointmentService")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4c81dd748dd9435d68d6a48769c34520964139cd")]
-[assembly: System.Reflection.AssemblyProductAttribute("UIManager")]
-[assembly: System.Reflection.AssemblyTitleAttribute("UIManager")]
+[assembly: System.Reflection.AssemblyProductAttribute("AppointmentService")]
+[assembly: System.Reflection.AssemblyTitleAttribute("AppointmentService")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Generado por la clase WriteCodeFragment de MSBuild.
