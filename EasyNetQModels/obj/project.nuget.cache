@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "J9D7VbrG4vD7RnlWKoV/vXjPHwWOoRF8GFuFPIL7d+FPDXPnwEFO8O6RxOvYDKx4ikfF62hKvWFi27KMGMGRPA==",
+  "dgSpecHash": "bTNz79R5LlE=",
   "success": true,
   "projectFilePath": "C:\\Github\\CodeFlowProject\\EasyNetQModels\\Common.csproj",
   "expectedPackageFiles": [
@@ -18,5 +18,24 @@
     "C:\\Users\\P129A1D\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512",
     "C:\\Users\\P129A1D\\.nuget\\packages\\system.threading.channels\\7.0.0\\system.threading.channels.7.0.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Error al obtener los datos de vulnerabilidad del paquete: No se puede cargar el índice de servicio del origen https://pkgs.dev.azure.com/Ceridian/_packaging/dayforce@release/nuget/v3/index.json."
+    },
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Error al obtener los datos de vulnerabilidad del paquete: No se puede cargar el índice de servicio del origen https://pkgs.dev.azure.com/Ceridian/_packaging/ThirdParty/nuget/v3/index.json."
+    },
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Error al obtener los datos de vulnerabilidad del paquete: No se puede cargar el índice de servicio del origen https://pkgs.dev.azure.com/Ceridian/_packaging/dayforce/nuget/v3/index.json."
+    }
+  ]
 }

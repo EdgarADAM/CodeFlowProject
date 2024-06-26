@@ -11,7 +11,7 @@ namespace UserApi.Controllers
         public void UserRegistry(UserModel userPost)
         {
             Transactions.Transactions insertUser = new Transactions.Transactions();
-                insertUser.InsertDBUser(userPost);            
+            insertUser.InsertDBUser(userPost);            
         }
     }
 }

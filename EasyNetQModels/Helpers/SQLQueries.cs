@@ -8,11 +8,6 @@ namespace Common.Helpers
     public class SQLQueries
     {
             private string _connInfo = null!;
-            private void CreateConnectionString(SQLConfig config)
-            {
-                _connInfo = @$"Data Source = localhost; Initial Catalog =; User ID = MedicalAppoint; Password = J732yra76W; Connection Timeout = 50000; Integrated Security = false; TrustServerCertificate = true";
-            }
-
             public DataTable ExecScript(string query)
             {
                 DataTable dt = new DataTable();

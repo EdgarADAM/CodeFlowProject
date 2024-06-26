@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "C:\\Github\\CodeFlowProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F983176A-5693-47EF-83FB-DA5C9609A1E1}|AppointmentService\\AppointmentService.csproj|c:\\github\\codeflowproject\\appointmentservice\\transactions\\getavailabledates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F983176A-5693-47EF-83FB-DA5C9609A1E1}|AppointmentService\\AppointmentService.csproj|solutionrelative:appointmentservice\\transactions\\getavailabledates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3FD71583-7D93-4173-9284-1F7727C9CCB5}|EasyNetQModels\\Common.csproj|c:\\github\\codeflowproject\\easynetqmodels\\models\\calendarmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3FD71583-7D93-4173-9284-1F7727C9CCB5}|EasyNetQModels\\Common.csproj|solutionrelative:easynetqmodels\\models\\calendarmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F983176A-5693-47EF-83FB-DA5C9609A1E1}|AppointmentService\\AppointmentService.csproj|c:\\github\\codeflowproject\\appointmentservice\\controllers\\appointmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F983176A-5693-47EF-83FB-DA5C9609A1E1}|AppointmentService\\AppointmentService.csproj|solutionrelative:appointmentservice\\controllers\\appointmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BDFF0C10-7068-49BC-9F68-9B71D6CFA62F}|UserApi\\UserApi.csproj|c:\\github\\codeflowproject\\userapi\\controllers\\usermanagementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BDFF0C10-7068-49BC-9F68-9B71D6CFA62F}|UserApi\\UserApi.csproj|solutionrelative:userapi\\controllers\\usermanagementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F983176A-5693-47EF-83FB-DA5C9609A1E1}|AppointmentService\\AppointmentService.csproj|c:\\github\\codeflowproject\\appointmentservice\\transactions\\getavailabledates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F983176A-5693-47EF-83FB-DA5C9609A1E1}|AppointmentService\\AppointmentService.csproj|solutionrelative:appointmentservice\\transactions\\getavailabledates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F983176A-5693-47EF-83FB-DA5C9609A1E1}|AppointmentService\\AppointmentService.csproj|c:\\github\\codeflowproject\\appointmentservice\\transactions\\appointmententries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F983176A-5693-47EF-83FB-DA5C9609A1E1}|AppointmentService\\AppointmentService.csproj|solutionrelative:appointmentservice\\transactions\\appointmententries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,58 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CalendarModel.cs",
-              "DocumentMoniker": "C:\\Github\\CodeFlowProject\\EasyNetQModels\\Models\\CalendarModel.cs",
-              "RelativeDocumentMoniker": "EasyNetQModels\\Models\\CalendarModel.cs",
-              "ToolTip": "C:\\Github\\CodeFlowProject\\EasyNetQModels\\Models\\CalendarModel.cs",
-              "RelativeToolTip": "EasyNetQModels\\Models\\CalendarModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
+              "DocumentIndex": 2,
+              "Title": "AppointmentEntries.cs",
+              "DocumentMoniker": "C:\\Github\\CodeFlowProject\\AppointmentService\\Transactions\\AppointmentEntries.cs",
+              "RelativeDocumentMoniker": "AppointmentService\\Transactions\\AppointmentEntries.cs",
+              "ToolTip": "C:\\Github\\CodeFlowProject\\AppointmentService\\Transactions\\AppointmentEntries.cs",
+              "RelativeToolTip": "AppointmentService\\Transactions\\AppointmentEntries.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T06:21:27.237Z",
+              "WhenOpened": "2024-06-26T04:38:03.344Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "GetAvailableDates.cs",
               "DocumentMoniker": "C:\\Github\\CodeFlowProject\\AppointmentService\\Transactions\\GetAvailableDates.cs",
               "RelativeDocumentMoniker": "AppointmentService\\Transactions\\GetAvailableDates.cs",
               "ToolTip": "C:\\Github\\CodeFlowProject\\AppointmentService\\Transactions\\GetAvailableDates.cs",
               "RelativeToolTip": "AppointmentService\\Transactions\\GetAvailableDates.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAwAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAABoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T06:19:34.902Z",
+              "WhenOpened": "2024-06-26T02:49:10.014Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "AppointmentController.cs",
               "DocumentMoniker": "C:\\Github\\CodeFlowProject\\AppointmentService\\Controllers\\AppointmentController.cs",
               "RelativeDocumentMoniker": "AppointmentService\\Controllers\\AppointmentController.cs",
               "ToolTip": "C:\\Github\\CodeFlowProject\\AppointmentService\\Controllers\\AppointmentController.cs",
               "RelativeToolTip": "AppointmentService\\Controllers\\AppointmentController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T05:49:37.112Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UserManagementController.cs",
-              "DocumentMoniker": "C:\\Github\\CodeFlowProject\\UserApi\\Controllers\\UserManagementController.cs",
-              "RelativeDocumentMoniker": "UserApi\\Controllers\\UserManagementController.cs",
-              "ToolTip": "C:\\Github\\CodeFlowProject\\UserApi\\Controllers\\UserManagementController.cs",
-              "RelativeToolTip": "UserApi\\Controllers\\UserManagementController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA0AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T03:42:27.388Z",
+              "WhenOpened": "2024-06-26T02:49:01.14Z",
               "EditorCaption": ""
             }
           ]

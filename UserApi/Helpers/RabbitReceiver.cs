@@ -37,8 +37,7 @@ namespace UserApi.Helpers
                     channel.BasicConsume(queue: queueName, autoAck: true, consumer: consumer);
                     mres.Wait();
                 }
-            }
-            
+            }            
         }
     }
 }

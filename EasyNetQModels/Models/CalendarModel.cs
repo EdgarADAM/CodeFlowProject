@@ -9,8 +9,8 @@ namespace Common.Models
     public class CalendarModel
     {
         public string drId { get; set; } = null!;
-        public string AppId { get; set; } = null!;
-        public string dayName { get; set; } = null!;
-        public string dayTime { get; set; } = null!;
+        public string date { get; set; } = null!;
+        public string idSchedule { get; set; } = null!;
+        public string description { get; set; } = null!;
     }
 }
