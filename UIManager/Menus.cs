@@ -12,7 +12,6 @@ namespace UIManager
         {
             Console.WriteLine("What you'd like to do?");
             Console.WriteLine("1.- Registry");
-            Console.WriteLine("2.- Make an Appointment");
         }
 
         public void UserTypeMenu()

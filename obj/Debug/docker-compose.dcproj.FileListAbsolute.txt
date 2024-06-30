@@ -1,0 +1,17 @@
+C:\Github\CodeFlowProject\bin\Debug\AppointmentService.deps.json
+C:\Github\CodeFlowProject\bin\Debug\AppointmentService.runtimeconfig.json
+C:\Github\CodeFlowProject\bin\Debug\appsettings.Development.json
+C:\Github\CodeFlowProject\bin\Debug\appsettings.json
+C:\Github\CodeFlowProject\bin\Debug\AppointmentService.exe
+C:\Github\CodeFlowProject\bin\Debug\AppointmentService.dll
+C:\Github\CodeFlowProject\bin\Debug\System.Data.SqlClient.dll
+C:\Github\CodeFlowProject\bin\Debug\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Github\CodeFlowProject\bin\Debug\Swashbuckle.AspNetCore.Swagger.dll
+C:\Github\CodeFlowProject\bin\Debug\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Github\CodeFlowProject\bin\Debug\Newtonsoft.Json.dll
+C:\Github\CodeFlowProject\bin\Debug\Dapper.dll
+C:\Github\CodeFlowProject\bin\Debug\Microsoft.OpenApi.dll
+C:\Github\CodeFlowProject\bin\Debug\AppointmentService.pdb
+C:\Github\CodeFlowProject\obj\Debug\docker-compose.dcproj.AssemblyReference.cache
+C:\Github\CodeFlowProject\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
+C:\Github\CodeFlowProject\obj\Debug\docker-c.35A3FFBA.Up2Date

@@ -1,6 +1,3 @@
-C:\Github\CodeFlowProject\AppointmentService\bin\Debug\net8.0\Common.deps.json
-C:\Github\CodeFlowProject\AppointmentService\bin\Debug\net8.0\Common.runtimeconfig.json
-C:\Github\CodeFlowProject\AppointmentService\bin\Debug\net8.0\Common.exe
 C:\Github\CodeFlowProject\AppointmentService\bin\Debug\net8.0\appsettings.Development.json
 C:\Github\CodeFlowProject\AppointmentService\bin\Debug\net8.0\appsettings.json
 C:\Github\CodeFlowProject\AppointmentService\bin\Debug\net8.0\AppointmentService.exe
@@ -10,7 +7,6 @@ C:\Github\CodeFlowProject\AppointmentService\bin\Debug\net8.0\AppointmentService
 C:\Github\CodeFlowProject\AppointmentService\bin\Debug\net8.0\AppointmentService.pdb
 C:\Github\CodeFlowProject\AppointmentService\bin\Debug\net8.0\Microsoft.OpenApi.dll
 C:\Github\CodeFlowProject\AppointmentService\bin\Debug\net8.0\Newtonsoft.Json.dll
-C:\Github\CodeFlowProject\AppointmentService\bin\Debug\net8.0\RabbitMQ.Client.dll
 C:\Github\CodeFlowProject\AppointmentService\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Github\CodeFlowProject\AppointmentService\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Github\CodeFlowProject\AppointmentService\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -20,8 +16,6 @@ C:\Github\CodeFlowProject\AppointmentService\bin\Debug\net8.0\runtimes\win-x64\n
 C:\Github\CodeFlowProject\AppointmentService\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
 C:\Github\CodeFlowProject\AppointmentService\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Github\CodeFlowProject\AppointmentService\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
-C:\Github\CodeFlowProject\AppointmentService\bin\Debug\net8.0\Common.dll
-C:\Github\CodeFlowProject\AppointmentService\bin\Debug\net8.0\Common.pdb
 C:\Github\CodeFlowProject\AppointmentService\obj\Debug\net8.0\AppointmentService.csproj.AssemblyReference.cache
 C:\Github\CodeFlowProject\AppointmentService\obj\Debug\net8.0\AppointmentService.GeneratedMSBuildEditorConfig.editorconfig
 C:\Github\CodeFlowProject\AppointmentService\obj\Debug\net8.0\AppointmentService.AssemblyInfoInputs.cache
@@ -44,3 +38,4 @@ C:\Github\CodeFlowProject\AppointmentService\obj\Debug\net8.0\refint\Appointment
 C:\Github\CodeFlowProject\AppointmentService\obj\Debug\net8.0\AppointmentService.pdb
 C:\Github\CodeFlowProject\AppointmentService\obj\Debug\net8.0\AppointmentService.genruntimeconfig.cache
 C:\Github\CodeFlowProject\AppointmentService\obj\Debug\net8.0\ref\AppointmentService.dll
+C:\Github\CodeFlowProject\AppointmentService\bin\Debug\net8.0\Dapper.dll

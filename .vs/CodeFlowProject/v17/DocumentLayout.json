@@ -3,16 +3,44 @@
   "WorkspaceRootPath": "C:\\Github\\CodeFlowProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F983176A-5693-47EF-83FB-DA5C9609A1E1}|AppointmentService\\AppointmentService.csproj|c:\\github\\codeflowproject\\appointmentservice\\controllers\\appointmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F983176A-5693-47EF-83FB-DA5C9609A1E1}|AppointmentService\\AppointmentService.csproj|solutionrelative:appointmentservice\\controllers\\appointmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CC869266-5F0E-42E1-8C33-2FD430121F60}|MailApi\\MailApi.csproj|c:\\github\\codeflowproject\\mailapi\\helpers\\emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC869266-5F0E-42E1-8C33-2FD430121F60}|MailApi\\MailApi.csproj|solutionrelative:mailapi\\helpers\\emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F983176A-5693-47EF-83FB-DA5C9609A1E1}|AppointmentService\\AppointmentService.csproj|c:\\github\\codeflowproject\\appointmentservice\\transactions\\getavailabledates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F983176A-5693-47EF-83FB-DA5C9609A1E1}|AppointmentService\\AppointmentService.csproj|solutionrelative:appointmentservice\\transactions\\getavailabledates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BDFF0C10-7068-49BC-9F68-9B71D6CFA62F}|UserApi\\UserApi.csproj|c:\\github\\codeflowproject\\userapi\\controllers\\usermanagementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDFF0C10-7068-49BC-9F68-9B71D6CFA62F}|UserApi\\UserApi.csproj|solutionrelative:userapi\\controllers\\usermanagementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F983176A-5693-47EF-83FB-DA5C9609A1E1}|AppointmentService\\AppointmentService.csproj|c:\\github\\codeflowproject\\appointmentservice\\transactions\\appointmententries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F983176A-5693-47EF-83FB-DA5C9609A1E1}|AppointmentService\\AppointmentService.csproj|solutionrelative:appointmentservice\\transactions\\appointmententries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BDFF0C10-7068-49BC-9F68-9B71D6CFA62F}|UserApi\\UserApi.csproj|c:\\github\\codeflowproject\\userapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDFF0C10-7068-49BC-9F68-9B71D6CFA62F}|UserApi\\UserApi.csproj|solutionrelative:userapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88D9E79A-303E-4C1B-AB28-84C3FF61CB49}|PacientsApi\\PacientsApi.csproj|c:\\github\\codeflowproject\\pacientsapi\\helpers\\rabbitreceiver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88D9E79A-303E-4C1B-AB28-84C3FF61CB49}|PacientsApi\\PacientsApi.csproj|solutionrelative:pacientsapi\\helpers\\rabbitreceiver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88D9E79A-303E-4C1B-AB28-84C3FF61CB49}|PacientsApi\\PacientsApi.csproj|c:\\github\\codeflowproject\\pacientsapi\\controllers\\pacientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88D9E79A-303E-4C1B-AB28-84C3FF61CB49}|PacientsApi\\PacientsApi.csproj|solutionrelative:pacientsapi\\controllers\\pacientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88D9E79A-303E-4C1B-AB28-84C3FF61CB49}|PacientsApi\\PacientsApi.csproj|c:\\github\\codeflowproject\\pacientsapi\\transactions\\transactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88D9E79A-303E-4C1B-AB28-84C3FF61CB49}|PacientsApi\\PacientsApi.csproj|solutionrelative:pacientsapi\\transactions\\transactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDFF0C10-7068-49BC-9F68-9B71D6CFA62F}|UserApi\\UserApi.csproj|c:\\github\\codeflowproject\\userapi\\transactions\\transactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDFF0C10-7068-49BC-9F68-9B71D6CFA62F}|UserApi\\UserApi.csproj|solutionrelative:userapi\\transactions\\transactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDFF0C10-7068-49BC-9F68-9B71D6CFA62F}|UserApi\\UserApi.csproj|c:\\github\\codeflowproject\\userapi\\helpers\\rabbitreceiver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDFF0C10-7068-49BC-9F68-9B71D6CFA62F}|UserApi\\UserApi.csproj|solutionrelative:userapi\\helpers\\rabbitreceiver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDFF0C10-7068-49BC-9F68-9B71D6CFA62F}|UserApi\\UserApi.csproj|c:\\github\\codeflowproject\\userapi\\models\\doctormodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDFF0C10-7068-49BC-9F68-9B71D6CFA62F}|UserApi\\UserApi.csproj|solutionrelative:userapi\\models\\doctormodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC869266-5F0E-42E1-8C33-2FD430121F60}|MailApi\\MailApi.csproj|c:\\github\\codeflowproject\\mailapi\\helpers\\rabbitreceiver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC869266-5F0E-42E1-8C33-2FD430121F60}|MailApi\\MailApi.csproj|solutionrelative:mailapi\\helpers\\rabbitreceiver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +50,136 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "AppointmentEntries.cs",
-              "DocumentMoniker": "C:\\Github\\CodeFlowProject\\AppointmentService\\Transactions\\AppointmentEntries.cs",
-              "RelativeDocumentMoniker": "AppointmentService\\Transactions\\AppointmentEntries.cs",
-              "ToolTip": "C:\\Github\\CodeFlowProject\\AppointmentService\\Transactions\\AppointmentEntries.cs",
-              "RelativeToolTip": "AppointmentService\\Transactions\\AppointmentEntries.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAMAAAA",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Github\\CodeFlowProject\\UserApi\\Program.cs",
+              "RelativeDocumentMoniker": "UserApi\\Program.cs",
+              "ToolTip": "C:\\Github\\CodeFlowProject\\UserApi\\Program.cs",
+              "RelativeToolTip": "UserApi\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-26T04:38:03.344Z",
+              "WhenOpened": "2024-06-30T05:45:26.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Transactions.cs",
+              "DocumentMoniker": "C:\\Github\\CodeFlowProject\\UserApi\\Transactions\\Transactions.cs",
+              "RelativeDocumentMoniker": "UserApi\\Transactions\\Transactions.cs",
+              "ToolTip": "C:\\Github\\CodeFlowProject\\UserApi\\Transactions\\Transactions.cs",
+              "RelativeToolTip": "UserApi\\Transactions\\Transactions.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwCEAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T05:45:23.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Transactions.cs",
+              "DocumentMoniker": "C:\\Github\\CodeFlowProject\\PacientsApi\\Transactions\\Transactions.cs",
+              "RelativeDocumentMoniker": "PacientsApi\\Transactions\\Transactions.cs",
+              "ToolTip": "C:\\Github\\CodeFlowProject\\PacientsApi\\Transactions\\Transactions.cs",
+              "RelativeToolTip": "PacientsApi\\Transactions\\Transactions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T06:25:20.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PacientController.cs",
+              "DocumentMoniker": "C:\\Github\\CodeFlowProject\\PacientsApi\\Controllers\\PacientController.cs",
+              "RelativeDocumentMoniker": "PacientsApi\\Controllers\\PacientController.cs",
+              "ToolTip": "C:\\Github\\CodeFlowProject\\PacientsApi\\Controllers\\PacientController.cs",
+              "RelativeToolTip": "PacientsApi\\Controllers\\PacientController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T06:22:14.649Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "GetAvailableDates.cs",
-              "DocumentMoniker": "C:\\Github\\CodeFlowProject\\AppointmentService\\Transactions\\GetAvailableDates.cs",
-              "RelativeDocumentMoniker": "AppointmentService\\Transactions\\GetAvailableDates.cs",
-              "ToolTip": "C:\\Github\\CodeFlowProject\\AppointmentService\\Transactions\\GetAvailableDates.cs",
-              "RelativeToolTip": "AppointmentService\\Transactions\\GetAvailableDates.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAABoAAAA",
+              "Title": "UserManagementController.cs",
+              "DocumentMoniker": "C:\\Github\\CodeFlowProject\\UserApi\\Controllers\\UserManagementController.cs",
+              "RelativeDocumentMoniker": "UserApi\\Controllers\\UserManagementController.cs",
+              "ToolTip": "C:\\Github\\CodeFlowProject\\UserApi\\Controllers\\UserManagementController.cs",
+              "RelativeToolTip": "UserApi\\Controllers\\UserManagementController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-26T02:49:10.014Z",
+              "WhenOpened": "2024-06-29T05:03:29.32Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AppointmentController.cs",
-              "DocumentMoniker": "C:\\Github\\CodeFlowProject\\AppointmentService\\Controllers\\AppointmentController.cs",
-              "RelativeDocumentMoniker": "AppointmentService\\Controllers\\AppointmentController.cs",
-              "ToolTip": "C:\\Github\\CodeFlowProject\\AppointmentService\\Controllers\\AppointmentController.cs",
-              "RelativeToolTip": "AppointmentService\\Controllers\\AppointmentController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAArAAAA",
+              "Title": "EmailSender.cs",
+              "DocumentMoniker": "C:\\Github\\CodeFlowProject\\MailApi\\Helpers\\EmailSender.cs",
+              "RelativeDocumentMoniker": "MailApi\\Helpers\\EmailSender.cs",
+              "ToolTip": "C:\\Github\\CodeFlowProject\\MailApi\\Helpers\\EmailSender.cs",
+              "RelativeToolTip": "MailApi\\Helpers\\EmailSender.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAwwBsAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-26T02:49:01.14Z",
+              "WhenOpened": "2024-06-29T04:40:05.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RabbitReceiver.cs",
+              "DocumentMoniker": "C:\\Github\\CodeFlowProject\\UserApi\\Helpers\\RabbitReceiver.cs",
+              "RelativeDocumentMoniker": "UserApi\\Helpers\\RabbitReceiver.cs",
+              "ToolTip": "C:\\Github\\CodeFlowProject\\UserApi\\Helpers\\RabbitReceiver.cs",
+              "RelativeToolTip": "UserApi\\Helpers\\RabbitReceiver.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T05:45:36.999Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RabbitReceiver.cs",
+              "DocumentMoniker": "C:\\Github\\CodeFlowProject\\PacientsApi\\Helpers\\RabbitReceiver.cs",
+              "RelativeDocumentMoniker": "PacientsApi\\Helpers\\RabbitReceiver.cs",
+              "ToolTip": "C:\\Github\\CodeFlowProject\\PacientsApi\\Helpers\\RabbitReceiver.cs",
+              "RelativeToolTip": "PacientsApi\\Helpers\\RabbitReceiver.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEMAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T05:56:20.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DoctorModel.cs",
+              "DocumentMoniker": "C:\\Github\\CodeFlowProject\\UserApi\\Models\\DoctorModel.cs",
+              "RelativeDocumentMoniker": "UserApi\\Models\\DoctorModel.cs",
+              "ToolTip": "C:\\Github\\CodeFlowProject\\UserApi\\Models\\DoctorModel.cs",
+              "RelativeToolTip": "UserApi\\Models\\DoctorModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T05:26:38.777Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RabbitReceiver.cs",
+              "DocumentMoniker": "C:\\Github\\CodeFlowProject\\MailApi\\Helpers\\RabbitReceiver.cs",
+              "RelativeDocumentMoniker": "MailApi\\Helpers\\RabbitReceiver.cs",
+              "ToolTip": "C:\\Github\\CodeFlowProject\\MailApi\\Helpers\\RabbitReceiver.cs",
+              "RelativeToolTip": "MailApi\\Helpers\\RabbitReceiver.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T04:40:08.628Z",
               "EditorCaption": ""
             }
           ]

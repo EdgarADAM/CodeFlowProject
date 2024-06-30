@@ -31,9 +31,6 @@ C:\Github\CodeFlowProject\UserApi\obj\Debug\net8.0\refint\UserApi.dll
 C:\Github\CodeFlowProject\UserApi\obj\Debug\net8.0\UserApi.pdb
 C:\Github\CodeFlowProject\UserApi\obj\Debug\net8.0\UserApi.genruntimeconfig.cache
 C:\Github\CodeFlowProject\UserApi\obj\Debug\net8.0\ref\UserApi.dll
-C:\Github\CodeFlowProject\UserApi\bin\Debug\net8.0\Common.deps.json
-C:\Github\CodeFlowProject\UserApi\bin\Debug\net8.0\Common.runtimeconfig.json
-C:\Github\CodeFlowProject\UserApi\bin\Debug\net8.0\Common.exe
 C:\Github\CodeFlowProject\UserApi\bin\Debug\net8.0\Newtonsoft.Json.dll
 C:\Github\CodeFlowProject\UserApi\bin\Debug\net8.0\RabbitMQ.Client.dll
 C:\Github\CodeFlowProject\UserApi\bin\Debug\net8.0\System.Data.SqlClient.dll
@@ -42,5 +39,4 @@ C:\Github\CodeFlowProject\UserApi\bin\Debug\net8.0\runtimes\win-x64\native\sni.d
 C:\Github\CodeFlowProject\UserApi\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
 C:\Github\CodeFlowProject\UserApi\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Github\CodeFlowProject\UserApi\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
-C:\Github\CodeFlowProject\UserApi\bin\Debug\net8.0\Common.dll
-C:\Github\CodeFlowProject\UserApi\bin\Debug\net8.0\Common.pdb
+C:\Github\CodeFlowProject\UserApi\bin\Debug\net8.0\Dapper.dll

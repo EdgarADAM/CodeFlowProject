@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common", "EasyNetQModels\Common.csproj", "{3FD71583-7D93-4173-9284-1F7727C9CCB5}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UIManager", "UIManager\UIManager.csproj", "{F5AA09F3-353A-4BA8-B4A4-0EC22B800CCB}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserApi", "UserApi\UserApi.csproj", "{BDFF0C10-7068-49BC-9F68-9B71D6CFA62F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppointmentService", "AppointmentService\AppointmentService.csproj", "{F983176A-5693-47EF-83FB-DA5C9609A1E1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppointmentService", "AppointmentService\AppointmentService.csproj", "{F983176A-5693-47EF-83FB-DA5C9609A1E1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MailApi", "MailApi\MailApi.csproj", "{CC869266-5F0E-42E1-8C33-2FD430121F60}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DoctorsApi", "DoctorsApi\DoctorsApi.csproj", "{8A521307-C88C-4F6F-9BEE-37FD82FC8699}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PacientsApi", "PacientsApi\PacientsApi.csproj", "{88D9E79A-303E-4C1B-AB28-84C3FF61CB49}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,14 +19,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{3FD71583-7D93-4173-9284-1F7727C9CCB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3FD71583-7D93-4173-9284-1F7727C9CCB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3FD71583-7D93-4173-9284-1F7727C9CCB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3FD71583-7D93-4173-9284-1F7727C9CCB5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F5AA09F3-353A-4BA8-B4A4-0EC22B800CCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F5AA09F3-353A-4BA8-B4A4-0EC22B800CCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F5AA09F3-353A-4BA8-B4A4-0EC22B800CCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F5AA09F3-353A-4BA8-B4A4-0EC22B800CCB}.Release|Any CPU.Build.0 = Release|Any CPU
 		{BDFF0C10-7068-49BC-9F68-9B71D6CFA62F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{BDFF0C10-7068-49BC-9F68-9B71D6CFA62F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BDFF0C10-7068-49BC-9F68-9B71D6CFA62F}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -33,6 +27,18 @@ Global
 		{F983176A-5693-47EF-83FB-DA5C9609A1E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F983176A-5693-47EF-83FB-DA5C9609A1E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F983176A-5693-47EF-83FB-DA5C9609A1E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC869266-5F0E-42E1-8C33-2FD430121F60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC869266-5F0E-42E1-8C33-2FD430121F60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC869266-5F0E-42E1-8C33-2FD430121F60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC869266-5F0E-42E1-8C33-2FD430121F60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A521307-C88C-4F6F-9BEE-37FD82FC8699}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A521307-C88C-4F6F-9BEE-37FD82FC8699}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A521307-C88C-4F6F-9BEE-37FD82FC8699}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A521307-C88C-4F6F-9BEE-37FD82FC8699}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88D9E79A-303E-4C1B-AB28-84C3FF61CB49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88D9E79A-303E-4C1B-AB28-84C3FF61CB49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88D9E79A-303E-4C1B-AB28-84C3FF61CB49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88D9E79A-303E-4C1B-AB28-84C3FF61CB49}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

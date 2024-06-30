@@ -1,4 +1,3 @@
-using UserApi.Controllers;
 using UserApi.Helpers;
 var builder = WebApplication.CreateBuilder(args);
 
@@ -30,3 +29,5 @@ Task.Run(() =>
 });
 
 app.Run();
+
+

@@ -1,5 +1,5 @@
 ﻿using AppointmentService.Transactions;
-using Common.Models;
+using AppointmentService.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AppointmentService.Controllers
@@ -12,14 +12,14 @@ namespace AppointmentService.Controllers
         public List<CalendarModel> GetAvailabilityAppointment(string drID, string Date)
         {
             List<CalendarModel> calendars = new List<CalendarModel>();
-            GetAvailableDates GetDates = new GetAvailableDates();
+            AppointmentsBussines GetDates = new AppointmentsBussines();
             calendars = GetDates.AvailableDates(drID, Date);
             return calendars;
         }
         [HttpPost(Name = "AppointmentEntry")]
         public void AppointmentEntry(string drID, string idPacient, string Date, int idSchedule)
         {
-            AppointmentEntries appointmentEntries = new AppointmentEntries();
+            AppointmentsBussines appointmentEntries = new AppointmentsBussines();
             appointmentEntries.Registry(drID, idPacient, Date, idSchedule);
         }
     }

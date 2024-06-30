@@ -1,5 +1,5 @@
-﻿using Common.Models;
-using Common.Helpers;
+﻿using UserApi.Models;
+using UserApi.Transactions;
 using RabbitMQ.Client.Events;
 using RabbitMQ.Client;
 using System.Text;
@@ -30,14 +30,14 @@ namespace UserApi.Helpers
                         var utf8_message = ea.Body.ToArray();
                         var message = Encoding.UTF8.GetString(utf8_message);
                         user = (UserModel)utf8_message.Deserialize(typeof(UserModel))!;
-                        Transactions.Transactions insertUser = new Transactions.Transactions();
+                        Registries insertUser = new Registries();
                         insertUser.InsertDBUser(user);
                     };
 
                     channel.BasicConsume(queue: queueName, autoAck: true, consumer: consumer);
                     mres.Wait();
                 }
-            }            
+            }
         }
     }
 }
