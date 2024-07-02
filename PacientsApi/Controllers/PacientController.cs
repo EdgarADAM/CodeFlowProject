@@ -8,14 +8,14 @@ namespace PacientsApi.Controllers
     [Route("[controller]")]
     public class PacientController : ControllerBase
     {
-        [HttpPatch(Name = "PacientUpdate")]
+        [HttpPatch]
         public void PacientUpdate(PacientModel pacient)
         {
             Registries updatePacient = new Registries();
             updatePacient.UpdatePacientsProfile(pacient);
         }
 
-        [HttpDelete(Name = "PacientDelete")]
+        [HttpDelete]
         public void PacientDelete(PacientModel pacient)
         {
             Registries updatePacient = new Registries();

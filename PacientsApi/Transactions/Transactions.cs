@@ -24,7 +24,7 @@ namespace Pacients.Transactions
             string subjectMessage = "Profile updated successfully!!!";
             string bodyMessage = @$"Your profile was updated, please keep your information up to date";
             RabbitSender messager = new RabbitSender();
-            messager.MessageRabbit(pacient.email, subjectMessage, bodyMessage);
+            messager.MessageRabbit(pacient.emailAddress, subjectMessage, bodyMessage);
         }
 
         public async void DeletePacientsProfile(PacientModel pacient)
@@ -40,7 +40,7 @@ namespace Pacients.Transactions
             string subjectMessage = "Profile deleted successfully!!!";
             string bodyMessage = @$"Your profile was deleted, hope you get back soon!";
             RabbitSender messager = new RabbitSender();
-            messager.MessageRabbit(pacient.email, subjectMessage, bodyMessage);
+            messager.MessageRabbit(pacient.emailAddress, subjectMessage, bodyMessage);
         }
     }
 }

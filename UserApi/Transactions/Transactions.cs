@@ -7,12 +7,12 @@ namespace UserApi.Transactions
 {
     public class Registries
     {
-        private static string _connectionString = "Server=localhost;Database=MedicalAppoint;User Id=Medicaluser;Password=J732yra76W;";
+        private static string _connectionString = "Server=localhost;Database=UsersMedicalAppoint;User Id=Medicaluser;Password=J732yra76W;";
 
         public void InsertDBUser(UserModel user)
         {
             string query = string.Empty;
-            query = @$"INSERT INTO users (type, userId, password, name, emailAddress, birthDate, country, phoneNumber) VALUES(@type, @userId, @password, @name, @emailAddress, @birthDate, @country, @phoneNumber)";
+            query = @$"INSERT INTO users (type, userId, password) VALUES(@type, @userId, @password)";
 
             var db = new SqlConnection(_connectionString);
 
@@ -20,18 +20,13 @@ namespace UserApi.Transactions
             {
                 type = user.type,
                 userId = user.userId,
-                password = user.password,
-                name = user.name,
-                emailAddress = user.emailAddress,
-                birthDate = user.birthDate,
-                country = user.country,
-                phoneNumber = user.phoneNumber
+                password = user.password
             });
             string subjectMessage = "Registration completed successfully!!!";
             string bodyMessage = @$"Your user ID is: {user.userId}, please complete the information in your profile";
             RabbitSender messager = new RabbitSender();
             messager.MessageRabbit(user.emailAddress, user.name, subjectMessage, bodyMessage);
-            messager.NewUser(user.userId, user.type, user.emailAddress);
+            messager.NewUser(user);
         }
 
         public void DeleteUser(string userId, string type, string email)

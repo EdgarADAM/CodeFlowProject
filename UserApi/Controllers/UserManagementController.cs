@@ -8,14 +8,13 @@ namespace UserApi.Controllers
     [Route("[controller]")]
     public class UserManagementController : ControllerBase
     {
-        [HttpPost(Name = "UserRegistry")]
+        [HttpPost]
         public void UserRegistry(UserModel userPost)
         {
             Registries insertUser = new Registries();
             insertUser.InsertDBUser(userPost);
         }
-        [HttpDelete(Name = "UserDelete")]
-
+        [HttpDelete]
         public void DeleteUser(string userId, string type, string email)
         {
             Registries deleteUser = new Registries();

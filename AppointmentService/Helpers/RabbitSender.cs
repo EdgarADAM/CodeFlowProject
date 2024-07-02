@@ -6,11 +6,11 @@ namespace AppointmentService.Helpers
 {
     public class RabbitSender
     {
-        public void MessageRabbit(string userID, string emailAdress, string userName, string subjectMessage, string bodyMessage)
+        public void MessageRabbit(string emailAdress, string subjectMessage, string bodyMessage)
         {
             EmailModel emailMessage = new EmailModel();
             emailMessage.Email = emailAdress;
-            emailMessage.Name = userName;
+            emailMessage.Name = "Medical Service Premium";
             emailMessage.Subject = subjectMessage;
             emailMessage.Body = bodyMessage;
 

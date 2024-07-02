@@ -11,11 +11,11 @@
 using System;
 using System.Reflection;
 
-[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("f57bd38e-264a-4ebc-ab6a-b55f74851c0b")]
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("51aebbf5-0447-4e8f-aa1f-7f616611db35")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("ApiGW")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+21dd621484b846f52d2752bcadb7f6f43a02e341")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+233126c77dc1d6c41a7c3374d13e6e43b335ae68")]
 [assembly: System.Reflection.AssemblyProductAttribute("ApiGW")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ApiGW")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

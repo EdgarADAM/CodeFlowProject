@@ -26,16 +26,18 @@ namespace UserApi.Helpers
             }
         }
 
-        public void NewUser(string userID, string type, string email)
+        public void NewUser(UserModel user)
         {
-            string topic = string.Empty;
-            if (type == "1")
+            if (user.type == "1")
             {
-                topic = "NewDoctor";
                 DoctorModel doctor = new DoctorModel()
                 {
-                    userId = userID,
-                    email = email
+                    userId = user.userId,
+                    name = user.name,
+                    emailAddress = user.emailAddress,
+                    birthDate = user.birthDate,
+                    country = user.country,
+                    phoneNumber = user.phoneNumber
                 };
                 var factory = new ConnectionFactory() { HostName = "localhost" };
                 using (var connection = factory.CreateConnection())
@@ -44,19 +46,22 @@ namespace UserApi.Helpers
                     {
                         var message = Serializer.Serialize(doctor);
 
-                        channel.ExchangeDeclare(exchange: topic, type: ExchangeType.Fanout);
-                        channel.BasicPublish(exchange: topic, routingKey: "", basicProperties: null, body: message);
+                        channel.ExchangeDeclare(exchange: "NewDoctor", type: ExchangeType.Fanout);
+                        channel.BasicPublish(exchange: "NewDoctor", routingKey: "", basicProperties: null, body: message);
                     }
                 }
                 
             }
             else
             {
-                topic = "NewPacient";
                 PacientModel pacient = new PacientModel()
                 {
-                    userId = userID,
-                    email = email
+                    userId = user.userId,
+                    name = user.name,
+                    emailAddress = user.emailAddress,
+                    birthDate = user.birthDate,
+                    country = user.country,
+                    phoneNumber = user.phoneNumber
                 };
                 var factory = new ConnectionFactory() { HostName = "localhost" };
                 using (var connection = factory.CreateConnection())
@@ -65,8 +70,8 @@ namespace UserApi.Helpers
                     {
                         var message = Serializer.Serialize(pacient);
 
-                        channel.ExchangeDeclare(exchange: topic, type: ExchangeType.Fanout);
-                        channel.BasicPublish(exchange: topic, routingKey: "", basicProperties: null, body: message);
+                        channel.ExchangeDeclare(exchange: "NewPacient", type: ExchangeType.Fanout);
+                        channel.BasicPublish(exchange: "NewPacient", routingKey: "", basicProperties: null, body: message);
                     }
                 }
             }
@@ -78,7 +83,7 @@ namespace UserApi.Helpers
             PacientModel deletePacient = new PacientModel()
             {
                 userId = pacient,
-                email = email
+                emailAddress = email
             };
             var factory = new ConnectionFactory() { HostName = "localhost" };
             using (var connection = factory.CreateConnection())
@@ -98,7 +103,7 @@ namespace UserApi.Helpers
             DoctorModel deleteDoctor = new DoctorModel()
             {
                 userId = doctor,
-                email = email
+                emailAddress = email
             };
             var factory = new ConnectionFactory() { HostName = "localhost" };
             using (var connection = factory.CreateConnection())

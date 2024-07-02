@@ -1,8 +1,8 @@
 version: '3.4'
 
 services:
-  userapi:
-    image: ${DOCKER_REGISTRY-}userapi
+  apigw:
+    image: ${DOCKER_REGISTRY-}apigw
     build:
       context: .
-      dockerfile: UserApi/Dockerfile
+      dockerfile: ApiGW/Dockerfile

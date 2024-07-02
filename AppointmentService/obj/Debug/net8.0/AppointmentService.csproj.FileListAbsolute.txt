@@ -39,3 +39,4 @@ C:\Github\CodeFlowProject\AppointmentService\obj\Debug\net8.0\AppointmentService
 C:\Github\CodeFlowProject\AppointmentService\obj\Debug\net8.0\AppointmentService.genruntimeconfig.cache
 C:\Github\CodeFlowProject\AppointmentService\obj\Debug\net8.0\ref\AppointmentService.dll
 C:\Github\CodeFlowProject\AppointmentService\bin\Debug\net8.0\Dapper.dll
+C:\Github\CodeFlowProject\AppointmentService\bin\Debug\net8.0\RabbitMQ.Client.dll

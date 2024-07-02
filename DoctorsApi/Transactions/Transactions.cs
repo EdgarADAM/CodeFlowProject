@@ -24,7 +24,16 @@ namespace DoctorsApi.Transactions
             string subjectMessage = "Profile updated successfully!!!";
             string bodyMessage = @$"Your profile was updated, please keep your information up to date";
             RabbitSender messager = new RabbitSender();
-            messager.MessageRabbit(doctor.email, subjectMessage, bodyMessage);
+            messager.MessageRabbit(doctor.emailAddress, subjectMessage, bodyMessage);
+        }
+
+        public List<DoctorModel>GetDoctorsProfile()
+        {
+            var client = new MongoClient(_connectionString);
+            var db = client.GetDatabase(_dataBase);
+            var collection = db.GetCollection<DoctorModel>(_collection);
+
+            return collection.Find(_ => true).ToList();
         }
 
         public async void DeleteDoctorsProfile(DoctorModel doctor)
@@ -40,7 +49,7 @@ namespace DoctorsApi.Transactions
             string subjectMessage = "Profile deleted successfully!!!";
             string bodyMessage = @$"Your profile was deleted, hope you get back soon!!";
             RabbitSender messager = new RabbitSender();
-            messager.MessageRabbit(doctor.email, subjectMessage, bodyMessage);
+            messager.MessageRabbit(doctor.emailAddress, subjectMessage, bodyMessage);
         }
     }
 }

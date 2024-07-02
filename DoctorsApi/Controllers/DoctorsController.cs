@@ -8,14 +8,21 @@ namespace DoctorsApi.Controllers
     [Route("[controller]")]
     public class DoctorController : ControllerBase
     {
-        [HttpPatch(Name = "DoctorUpdate")]
+        [HttpGet]
+        public List<DoctorModel> GetAllDoctors()
+        {
+            Registries updateDoctor = new Registries();
+            return updateDoctor.GetDoctorsProfile();
+        }
+
+        [HttpPatch]
          public void DoctorUpdate(DoctorModel doctor)
          {
             Registries updateDoctor = new Registries();
             updateDoctor.UpdateDoctorsProfile(doctor);
          }
 
-        [HttpDelete(Name = "DoctorDelete")]
+        [HttpDelete]
         public void DoctorDelete(DoctorModel doctor)
         {
             Registries updateDoctor = new Registries();

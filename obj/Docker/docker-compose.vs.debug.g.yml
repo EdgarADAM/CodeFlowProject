@@ -1,22 +1,22 @@
 version: '3.4'
 
 services:
-  userapi:
-    image: userapi:dev
-    container_name: "UserApi"
+  apigw:
+    image: apigw:dev
+    container_name: "ApiGW"
     build:
       args:
         BUILD_CONFIGURATION: Debug
       target: base
       labels:
         com.microsoft.created-by: "visual-studio"
-        com.microsoft.visual-studio.project-name: "UserApi"
+        com.microsoft.visual-studio.project-name: "ApiGW"
     environment:
       - DOTNET_USE_POLLING_FILE_WATCHER=1
       - ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS=true
       - NUGET_FALLBACK_PACKAGES=/.nuget/fallbackpackages
     volumes:
-      - C:\Github\CodeFlowProject\UserApi:/app:rw
+      - C:\Github\CodeFlowProject\ApiGW:/app:rw
       - C:\Github\CodeFlowProject:/src:rw
       - C:\Users\P129A1D\vsdbg\vs2017u5:/remote_debugger:rw
       - C:\Users\P129A1D\.nuget\packages:/.nuget/packages:ro
@@ -31,7 +31,7 @@ services:
     entrypoint: "dotnet --roll-forward Major /VSTools/DistrolessHelper/DistrolessHelper.dll --wait"
     labels:
       com.microsoft.visualstudio.debuggee.program: "dotnet"
-      com.microsoft.visualstudio.debuggee.arguments: " --additionalProbingPath /.nuget/packages --additionalProbingPath /.nuget/fallbackpackages  \"/app/bin/Debug/net8.0/UserApi.dll\""
+      com.microsoft.visualstudio.debuggee.arguments: " --additionalProbingPath /.nuget/packages --additionalProbingPath /.nuget/fallbackpackages  \"/app/bin/Debug/net8.0/ApiGW.dll\""
       com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
       com.microsoft.visualstudio.debuggee.killprogram: "dotnet --roll-forward Major /VSTools/DistrolessHelper/DistrolessHelper.dll --stop dotnet"
     tty: true

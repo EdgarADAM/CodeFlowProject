@@ -8,7 +8,7 @@ namespace MailApi.Controllers
     [Route("[controller]")]
     public class MailController : ControllerBase
     {
-        [HttpPost(Name = "EmailSender")]
+        [HttpPost]
         public void Email(EmailModel emailMessage)
         {
             EmailSender sender = new EmailSender();
