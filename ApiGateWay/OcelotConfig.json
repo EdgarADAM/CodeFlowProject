@@ -1,0 +1,67 @@
+{
+  "Routes": [
+    {
+      "UpstreamPathTemplate": "/UserApi/UserManagement",
+      "UpstreamHttpMethod": [ "POST", "DELETE" ],
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "userapi",
+          "Port": 80
+        }
+      ],
+      "DownstreamPathTemplate": "/UserApi/UserManagement"
+    },
+    {
+      "UpstreamPathTemplate": "/PacientsApi/Pacients",
+      "UpstreamHttpMethod": [ "PATCH", "DELETE" ],
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "pacientsapi",
+          "Port": 80
+        }
+      ],
+      "DownstreamPathTemplate": "/PacientsApi/Pacients"
+    },
+    {
+      "UpstreamPathTemplate": "/MailApi/Mail",
+      "UpstreamHttpMethod": [ "POST" ],
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "mailapi",
+          "Port": 80
+        }
+      ],
+      "DownstreamPathTemplate": "/MailApi/aAil"
+    },
+    {
+      "UpstreamPathTemplate": "/DoctorsApi/Doctor",
+      "UpstreamHttpMethod": [ "GET", "PATCH", "DELETE" ],
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "doctorsapi",
+          "Port": 80
+        }
+      ],
+      "DownstreamPathTemplate": "/DoctorsApi/Doctor"
+    },
+    {
+      "UpstreamPathTemplate": "/AppointmentService/Appointment",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ],
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "appointmentservice",
+          "Port": 80
+        }
+      ],
+      "DownstreamPathTemplate": "/AppointmentService/Appointment"
+    }
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl":  "http://localhost:15550"
+  }
+}

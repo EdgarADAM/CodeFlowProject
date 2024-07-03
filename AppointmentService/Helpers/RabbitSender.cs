@@ -14,7 +14,7 @@ namespace AppointmentService.Helpers
             emailMessage.Subject = subjectMessage;
             emailMessage.Body = bodyMessage;
 
-            var factory = new ConnectionFactory() { HostName = "localhost" };
+            var factory = new ConnectionFactory() { HostName = "localhost", UserName = ConnectionFactory.DefaultUser, Password = ConnectionFactory.DefaultPass, Port = AmqpTcpEndpoint.UseDefaultPort };
             using (var connection = factory.CreateConnection())
             {
                 using (var channel = connection.CreateModel())

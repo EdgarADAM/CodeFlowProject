@@ -1,8 +1,101 @@
 version: '3.4'
 
+networks:
+  codeflow:
+
+volumes:
+  rabbitmq_data:
+  app:
+
 services:
-  apigw:
-    image: ${DOCKER_REGISTRY-}apigw
+  rabbitmq:
+    container_name: rabbitmq
+    image: rabbitmq:3-management
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    networks:
+      - codeflow
+    volumes:
+      - rabbitmq_data:/var/lib/rabbitmq
+    
+  sqldb:
+    container_name: sqlserverdb
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    ports: 
+      - "1433:1433"
+    networks:
+      - codeflow
+    environment:
+     - SA_PASSWORD=J732yra76W
+     - ACCEPT_EULA=Y
+    volumes:
+      - app:/app
+ 
+  mongodb:
+    container_name: mongodb
+    image: mongo
+    ports:
+      - "27017:27017"
+    networks:
+      - codeflow
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=root
+      - MONGO_INITDB_ROOT_PASSWORD=admin
+
+  appointmentservice:
+    container_name: appointmentApi
+    image: ${DOCKER_REGISTRY-}appointmentservice
     build:
       context: .
-      dockerfile: ApiGW/Dockerfile
+      dockerfile: AppointmentService/Dockerfile
+    networks:
+      - codeflow
+
+  doctorsapi:
+    container_name: doctorsApi
+    image: ${DOCKER_REGISTRY-}doctorsapi
+    build:
+      context: .
+      dockerfile: DoctorsApi/Dockerfile
+    networks:
+      - codeflow
+
+  mailapi:
+    container_name: mailApi
+    image: ${DOCKER_REGISTRY-}mailapi
+    build:
+      context: .
+      dockerfile: MailApi/Dockerfile
+    networks:
+      - codeflow
+
+  pacientsapi:
+    container_name: pacientsApi
+    image: ${DOCKER_REGISTRY-}pacientsapi
+    build:
+      context: .
+      dockerfile: PacientsApi/Dockerfile
+    networks:
+      - codeflow
+
+  userapi:
+    container_name: userApi
+    image: ${DOCKER_REGISTRY-}userapi
+    build:
+      context: .
+      dockerfile: UserApi/Dockerfile
+    networks:
+      - codeflow
+      
+  apigateway:
+    container_name: apiGW
+    image: ${DOCKER_REGISTRY-}apigateway
+    build:
+      context: .
+      dockerfile: ApiGateWay/Dockerfile
+    ports:
+      - 8001:80
+    networks:
+      - codeflow
+

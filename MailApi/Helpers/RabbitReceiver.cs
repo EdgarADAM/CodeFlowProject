@@ -11,7 +11,7 @@ namespace MailApi.Helpers
         public void NewMessageReceiver()
         {
             var mres = new ManualResetEventSlim(false);
-            var factory = new ConnectionFactory() { HostName = "localhost" };
+            var factory = new ConnectionFactory() { HostName = "localhost", UserName = ConnectionFactory.DefaultUser, Password = ConnectionFactory.DefaultPass, Port = AmqpTcpEndpoint.UseDefaultPort };
             //UserModel user = new UserModel();
             using (var connection = factory.CreateConnection())
             {

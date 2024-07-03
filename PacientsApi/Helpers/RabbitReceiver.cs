@@ -12,7 +12,7 @@ namespace Pacients.Helpers
         public void NewUserReceiver()
         {
             var mres = new ManualResetEventSlim(false);
-            var factory = new ConnectionFactory() { HostName = "localhost" };
+            var factory = new ConnectionFactory() { HostName = "localhost", UserName = ConnectionFactory.DefaultUser, Password = ConnectionFactory.DefaultPass, Port = AmqpTcpEndpoint.UseDefaultPort };
             PacientModel user = new PacientModel();
             using (var connection = factory.CreateConnection())
             {
@@ -44,7 +44,7 @@ namespace Pacients.Helpers
         public void DeleteUserReceiver()
         {
             var mres = new ManualResetEventSlim(false);
-            var factory = new ConnectionFactory() { HostName = "localhost" };
+            var factory = new ConnectionFactory() { HostName = "localhost", UserName = ConnectionFactory.DefaultUser, Password = ConnectionFactory.DefaultPass, Port = AmqpTcpEndpoint.UseDefaultPort };
             PacientModel user = new PacientModel();
             using (var connection = factory.CreateConnection())
             {

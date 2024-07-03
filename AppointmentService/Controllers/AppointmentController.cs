@@ -8,7 +8,7 @@ namespace AppointmentService.Controllers
     [Route("[controller]")]
     public class AppointmentController : ControllerBase
     {
-        [HttpGet)]
+        [HttpGet]
         public List<CalendarModel> GetAvailabilityAppointment(string drID, string Date)
         {
             List<CalendarModel> calendars = new List<CalendarModel>();

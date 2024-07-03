@@ -1,34 +1,36 @@
 name: dockercompose4229094490903182031
 services:
+  apigateway:
+    build:
+      context: C:\Github\CodeFlowProject
+      dockerfile: ApiGateWay/Dockerfile
+    container_name: apiGW
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_HTTP_PORTS: "8080"
+    image: apigateway
+    networks:
+      codeflow: null
+    ports:
+      - mode: ingress
+        target: 80
+        published: "8001"
+        protocol: tcp
+      - mode: ingress
+        target: 8080
+        protocol: tcp
   appointmentservice:
     build:
       context: C:\Github\CodeFlowProject
       dockerfile: AppointmentService/Dockerfile
-      args:
-        BUILD_CONFIGURATION: Release
-      labels:
-        com.microsoft.created-by: visual-studio
-        com.microsoft.visual-studio.project-name: AppointmentService
-    container_name: AppointmentService
-    entrypoint:
-      - dotnet
-      - --roll-forward
-      - Major
-      - /VSTools/DistrolessHelper/DistrolessHelper.dll
-      - --wait
+    container_name: appointmentApi
     environment:
       ASPNETCORE_ENVIRONMENT: Development
       ASPNETCORE_HTTP_PORTS: "8080"
       ASPNETCORE_HTTPS_PORTS: "8081"
     image: appointmentservice
-    labels:
-      com.microsoft.visual-studio.project-name: AppointmentService
-      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /.nuget/packages --additionalProbingPath /.nuget/fallbackpackages  "/app/AppointmentService.dll"'
-      com.microsoft.visualstudio.debuggee.killprogram: dotnet --roll-forward Major /VSTools/DistrolessHelper/DistrolessHelper.dll --stop dotnet
-      com.microsoft.visualstudio.debuggee.program: dotnet
-      com.microsoft.visualstudio.debuggee.workingdirectory: /app
     networks:
-      default: null
+      codeflow: null
     ports:
       - mode: ingress
         target: 8080
@@ -36,49 +38,202 @@ services:
       - mode: ingress
         target: 8081
         protocol: tcp
-    tty: true
     volumes:
       - type: bind
-        source: C:\Users\P129A1D\AppData\Roaming\Microsoft\UserSecrets
+        source: C:\Users\P129A1D\AppData\Roaming/Microsoft/UserSecrets
         target: /home/app/.microsoft/usersecrets
         read_only: true
         bind:
           create_host_path: true
       - type: bind
-        source: C:\Users\P129A1D\AppData\Roaming\ASP.NET\Https
+        source: C:\Users\P129A1D\AppData\Roaming/ASP.NET/Https
         target: /home/app/.aspnet/https
         read_only: true
         bind:
           create_host_path: true
+  doctorsapi:
+    build:
+      context: C:\Github\CodeFlowProject
+      dockerfile: DoctorsApi/Dockerfile
+    container_name: doctorsApi
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_HTTP_PORTS: "8080"
+      ASPNETCORE_HTTPS_PORTS: "8081"
+    image: doctorsapi
+    networks:
+      codeflow: null
+    ports:
+      - mode: ingress
+        target: 8080
+        protocol: tcp
+      - mode: ingress
+        target: 8081
+        protocol: tcp
+    volumes:
       - type: bind
-        source: C:\Users\P129A1D\vsdbg\vs2017u5
-        target: /remote_debugger
-        bind:
-          create_host_path: true
-      - type: bind
-        source: C:\Users\P129A1D\AppData\Roaming\ASP.NET\Https
-        target: /root/.aspnet/https
+        source: C:\Users\P129A1D\AppData\Roaming/Microsoft/UserSecrets
+        target: /home/app/.microsoft/usersecrets
         read_only: true
         bind:
           create_host_path: true
       - type: bind
-        source: C:\Users\P129A1D\AppData\Roaming\Microsoft\UserSecrets
-        target: /root/.microsoft/usersecrets
+        source: C:\Users\P129A1D\AppData\Roaming/ASP.NET/Https
+        target: /home/app/.aspnet/https
+        read_only: true
+        bind:
+          create_host_path: true
+  mailapi:
+    build:
+      context: C:\Github\CodeFlowProject
+      dockerfile: MailApi/Dockerfile
+    container_name: mailApi
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_HTTP_PORTS: "8080"
+      ASPNETCORE_HTTPS_PORTS: "8081"
+    image: mailapi
+    networks:
+      codeflow: null
+    ports:
+      - mode: ingress
+        target: 8080
+        protocol: tcp
+      - mode: ingress
+        target: 8081
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: C:\Users\P129A1D\AppData\Roaming/Microsoft/UserSecrets
+        target: /home/app/.microsoft/usersecrets
         read_only: true
         bind:
           create_host_path: true
       - type: bind
-        source: C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Sdks\Microsoft.Docker.Sdk\tools\linux-x64\net8.0
-        target: /VSTools
+        source: C:\Users\P129A1D\AppData\Roaming/ASP.NET/Https
+        target: /home/app/.aspnet/https
+        read_only: true
+        bind:
+          create_host_path: true
+  mongodb:
+    container_name: mongodb
+    environment:
+      MONGO_INITDB_ROOT_PASSWORD: admin
+      MONGO_INITDB_ROOT_USERNAME: root
+    image: mongo
+    networks:
+      codeflow: null
+    ports:
+      - mode: ingress
+        target: 27017
+        published: "27017"
+        protocol: tcp
+  pacientsapi:
+    build:
+      context: C:\Github\CodeFlowProject
+      dockerfile: PacientsApi/Dockerfile
+    container_name: pacientsApi
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_HTTP_PORTS: "8080"
+      ASPNETCORE_HTTPS_PORTS: "8081"
+    image: pacientsapi
+    networks:
+      codeflow: null
+    ports:
+      - mode: ingress
+        target: 8080
+        protocol: tcp
+      - mode: ingress
+        target: 8081
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: C:\Users\P129A1D\AppData\Roaming/Microsoft/UserSecrets
+        target: /home/app/.microsoft/usersecrets
         read_only: true
         bind:
           create_host_path: true
       - type: bind
-        source: C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\HotReload
-        target: /HotReloadAgent
+        source: C:\Users\P129A1D\AppData\Roaming/ASP.NET/Https
+        target: /home/app/.aspnet/https
+        read_only: true
+        bind:
+          create_host_path: true
+  rabbitmq:
+    container_name: rabbitmq
+    image: rabbitmq:3-management
+    networks:
+      codeflow: null
+    ports:
+      - mode: ingress
+        target: 5672
+        published: "5672"
+        protocol: tcp
+      - mode: ingress
+        target: 15672
+        published: "15672"
+        protocol: tcp
+    volumes:
+      - type: volume
+        source: rabbitmq_data
+        target: /var/lib/rabbitmq
+        volume: {}
+  sqldb:
+    container_name: sqlserverdb
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: J732yra76W
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    networks:
+      codeflow: null
+    ports:
+      - mode: ingress
+        target: 1433
+        published: "1433"
+        protocol: tcp
+    volumes:
+      - type: volume
+        source: app
+        target: /app
+        volume: {}
+  userapi:
+    build:
+      context: C:\Github\CodeFlowProject
+      dockerfile: UserApi/Dockerfile
+    container_name: userApi
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_HTTP_PORTS: "8080"
+      ASPNETCORE_HTTPS_PORTS: "8081"
+    image: userapi
+    networks:
+      codeflow: null
+    ports:
+      - mode: ingress
+        target: 8080
+        protocol: tcp
+      - mode: ingress
+        target: 8081
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: C:\Users\P129A1D\AppData\Roaming/Microsoft/UserSecrets
+        target: /home/app/.microsoft/usersecrets
+        read_only: true
+        bind:
+          create_host_path: true
+      - type: bind
+        source: C:\Users\P129A1D\AppData\Roaming/ASP.NET/Https
+        target: /home/app/.aspnet/https
         read_only: true
         bind:
           create_host_path: true
 networks:
-  default:
-    name: dockercompose4229094490903182031_default
+  codeflow:
+    name: dockercompose4229094490903182031_codeflow
+volumes:
+  app:
+    name: dockercompose4229094490903182031_app
+  rabbitmq_data:
+    name: dockercompose4229094490903182031_rabbitmq_data

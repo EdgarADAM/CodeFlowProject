@@ -3,11 +3,20 @@
   "WorkspaceRootPath": "C:\\Github\\CodeFlowProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DF8F0177-C8CE-4660-A36F-86DDDFA46622}|..\\ApiGateWay\\ApiGateWay.csproj|c:\\github\\apigateway\\ocelotconfig.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BDFF0C10-7068-49BC-9F68-9B71D6CFA62F}|UserApi\\UserApi.csproj|c:\\github\\codeflowproject\\userapi\\controllers\\usermanagementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BDFF0C10-7068-49BC-9F68-9B71D6CFA62F}|UserApi\\UserApi.csproj|solutionrelative:userapi\\controllers\\usermanagementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDFF0C10-7068-49BC-9F68-9B71D6CFA62F}|UserApi\\UserApi.csproj|c:\\github\\codeflowproject\\userapi\\transactions\\transactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDFF0C10-7068-49BC-9F68-9B71D6CFA62F}|UserApi\\UserApi.csproj|solutionrelative:userapi\\transactions\\transactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDFF0C10-7068-49BC-9F68-9B71D6CFA62F}|UserApi\\UserApi.csproj|c:\\github\\codeflowproject\\userapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BDFF0C10-7068-49BC-9F68-9B71D6CFA62F}|UserApi\\UserApi.csproj|solutionrelative:userapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDFF0C10-7068-49BC-9F68-9B71D6CFA62F}|UserApi\\UserApi.csproj|c:\\github\\codeflowproject\\userapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDFF0C10-7068-49BC-9F68-9B71D6CFA62F}|UserApi\\UserApi.csproj|solutionrelative:userapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -21,28 +30,54 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UserManagementController.cs",
-              "DocumentMoniker": "C:\\Github\\CodeFlowProject\\UserApi\\Controllers\\UserManagementController.cs",
-              "RelativeDocumentMoniker": "UserApi\\Controllers\\UserManagementController.cs",
-              "ToolTip": "C:\\Github\\CodeFlowProject\\UserApi\\Controllers\\UserManagementController.cs",
-              "RelativeToolTip": "UserApi\\Controllers\\UserManagementController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T16:37:55.76Z",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Github\\CodeFlowProject\\UserApi\\appsettings.json",
+              "RelativeDocumentMoniker": "UserApi\\appsettings.json",
+              "ToolTip": "C:\\Github\\CodeFlowProject\\UserApi\\appsettings.json",
+              "RelativeToolTip": "UserApi\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-03T05:11:01.425Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "OcelotConfig.json",
-              "DocumentMoniker": "C:\\Github\\ApiGateWay\\OcelotConfig.json",
-              "RelativeDocumentMoniker": "..\\ApiGateWay\\OcelotConfig.json",
-              "ToolTip": "C:\\Github\\ApiGateWay\\OcelotConfig.json",
-              "RelativeToolTip": "..\\ApiGateWay\\OcelotConfig.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-07-02T16:04:53.106Z",
+              "Title": "UserManagementController.cs",
+              "DocumentMoniker": "C:\\Github\\CodeFlowProject\\UserApi\\Controllers\\UserManagementController.cs",
+              "RelativeDocumentMoniker": "UserApi\\Controllers\\UserManagementController.cs",
+              "ToolTip": "C:\\Github\\CodeFlowProject\\UserApi\\Controllers\\UserManagementController.cs",
+              "RelativeToolTip": "UserApi\\Controllers\\UserManagementController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T05:08:54.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Transactions.cs",
+              "DocumentMoniker": "C:\\Github\\CodeFlowProject\\UserApi\\Transactions\\Transactions.cs",
+              "RelativeDocumentMoniker": "UserApi\\Transactions\\Transactions.cs",
+              "ToolTip": "C:\\Github\\CodeFlowProject\\UserApi\\Transactions\\Transactions.cs",
+              "RelativeToolTip": "UserApi\\Transactions\\Transactions.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwB0AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T04:59:54.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Github\\CodeFlowProject\\UserApi\\Program.cs",
+              "RelativeDocumentMoniker": "UserApi\\Program.cs",
+              "ToolTip": "C:\\Github\\CodeFlowProject\\UserApi\\Program.cs",
+              "RelativeToolTip": "UserApi\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T04:57:05.445Z",
               "EditorCaption": ""
             }
           ]

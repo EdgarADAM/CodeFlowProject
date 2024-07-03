@@ -11,7 +11,7 @@ namespace DoctorsApi.Helpers
         public void NewUserReceiver()
         {
             var mres = new ManualResetEventSlim(false);
-            var factory = new ConnectionFactory() { HostName = "localhost" };
+            var factory = new ConnectionFactory() { HostName = "localhost", UserName = ConnectionFactory.DefaultUser, Password = ConnectionFactory.DefaultPass, Port = AmqpTcpEndpoint.UseDefaultPort };
             DoctorModel user = new DoctorModel();
             using (var connection = factory.CreateConnection())
             {
@@ -43,7 +43,7 @@ namespace DoctorsApi.Helpers
         public void DeleteUserReceiver()
         {
             var mres = new ManualResetEventSlim(false);
-            var factory = new ConnectionFactory() { HostName = "localhost" };
+            var factory = new ConnectionFactory() { HostName = "localhost", UserName = ConnectionFactory.DefaultUser, Password = ConnectionFactory.DefaultPass, Port = AmqpTcpEndpoint.UseDefaultPort };
             DoctorModel user = new DoctorModel();
             using (var connection = factory.CreateConnection())
             {

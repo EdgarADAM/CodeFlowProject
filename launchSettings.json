@@ -6,7 +6,11 @@
       "serviceActions": {
         "appointmentservice": "StartDebugging",
         "userapi": "StartDebugging",
-        "apigw": "StartDebugging"
+        "apigw": "StartDebugging",
+        "doctorsapi": "StartDebugging",
+        "mailapi": "StartDebugging",
+        "pacientsapi": "StartDebugging",
+        "apigateway": "StartDebugging"
       }
     }
   }
